@@ -1,0 +1,19 @@
+kafka:
+  bootstrap_servers: some-domen.host.com:12345
+  topic: topic_name
+  ssl_cafile: path/to/ca.pem
+  ssl_certfile: path/to/service.cert
+  ssl_keyfile: path/to/service.key
+postgres:
+  uri: postgres://user:password@some-domen.host.com:12345/db-name?sslmode=require
+  table: table_name
+monitoring:
+  - url: https://google.com/
+    interval: 5
+  - url: https://aiven.io/
+    interval: 10
+  - url: https://vk.com/
+    interval: 20
+  - url: https://github.com/
+    interval: 30
+    regex: GitHub

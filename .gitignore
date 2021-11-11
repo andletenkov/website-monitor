@@ -1,0 +1,11 @@
+# Certificates and keys
+/keys
+**/service.cert
+**/service.key
+**/ca.pem
+
+# Sensitive configs
+/config/config.yml
+
+# Pytest cache
+**/.pytest_cache/*
